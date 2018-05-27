@@ -1,0 +1,32 @@
+<!--pages/has11/has11.wxml-->
+<view class='tcontainer'>
+<text class="text">倒计时</text>
+<text class="text" style="color:#0076ff">{{minute}}:{{second}}</text>
+<!--标题  -->
+<view id='describe'>{{index+1}}、{{datasource[list[index%171]]}}</view>
+<!--选项--> 
+<view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item">
+      <button class="button-answer " style="background-color: rgb(138,43,226);" bindtap="judgeNumber" id="{{answerArray[0]}}" hover-class="button-hover-1">
+        <text class="answer-Size">{{answerArray[0]}}</text>
+      </button>
+    </view>
+    <view class="flex-item" style="margin-left: 30rpx">
+      <button class="button-answer" style="background-color: rgb(173,216,230);" bindtap="judgeNumber" id="{{answerArray[1]}}" hover-class="button-hover-1">
+        <text class="answer-Size">{{answerArray[1]}}</text>
+      </button>
+    </view>
+</view>
+<view class="flex-wrp" style="flex-direction:row ;padding-top:0rpx;">
+    <view class="flex-item">
+      <button class="button-answer" style="background-color:rgb(134,215,255)" bindtap="judgeNumber" id="{{answerArray[2]}}" hover-class="button-hover-1">
+        <text class="answer-Size">{{answerArray[2]}}</text>
+      </button>
+    </view>
+    <view class="flex-item" style="margin-left: 30rpx">
+      <button class="button-answer" style="background-color:rgb(228,220,87)" bindtap="judgeNumber" id="{{answerArray[3]}}" hover-class="button-hover-1">
+        <text class="answer-Size">{{answerArray[3]}}</text>
+      </button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/has1121/has1121",
+    "pages/has1122/has1122",
+    "pages/has1/has1",
+    "pages/has1result/has1result",
+    "pages/has11/has11",
+    "pages/has11result/has11result",
+    "pages/has111/has111",
+    "pages/has111result/has111result",
+    "pages/has12/has12",
+    "pages/has12result/has12result",
+    "pages/has13/has13",
+    "pages/has13result/has13result",
+    "pages/has14/has14",
+    "pages/has14result/has14result",
+    "pages/has15/has15",
+    "pages/has15result/has15result",
+    "pages/has112/has112",
+    "pages/has112result/has112result",
+    "pages/has121/has121",
+    "pages/has121result/has121result",
+    "pages/has122/has122",
+    "pages/has122result/has122result"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "百内加减法测试",
+    "navigationBarTextStyle": "black"
+  }
+}

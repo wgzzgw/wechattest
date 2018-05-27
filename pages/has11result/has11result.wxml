@@ -1,0 +1,21 @@
+<!--pages/has11result/has11result.wxml-->
+<view class="container-end">
+  <view>
+    <text>2分钟内答对了</text>
+    <text style="color:#0076ff">{{rightAmount}}</text>
+    <text>道，答错了</text>
+    <text style="color:#0076ff">{{wrongAmount}}</text>
+    <text>道，评分:</text>
+  </view>
+<text wx:if="{{!qualified}}" class="text" style="color:#00767f">本项测试不合格</text>
+<text wx:else  class="text" style="color:#00767f">本项测试合格</text>
+<block wx:for="{{stars}}">
+<image class="star-image" style="left:{{(item-1)*155}}rpx" src="{{key> item-1 ?selectedSrc:normalSrc}}">
+</image>
+</block>
+<view class="btn">
+ <button wx:if="{{!qualified}}"  class="abutton" type="primary" bindtap="continute">子知识点测试</button>
+ <button wx:else  class="abutton" type="primary" bindtap="continutenext">同层知识点测试</button>
+    <button class="abutton" bindtap="comeBack">回到首页</button>
+</view>
+</view>

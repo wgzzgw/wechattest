@@ -1,0 +1,47 @@
+.tcontainer {
+  width: 100%;
+  height: 100vh;
+  padding-top: 5rpx;
+  opacity: 0.8;
+}
+.font {
+  font-size: 15pt;
+  font-weight: 400;
+  align-items: left;
+}
+.smallfont{
+    font-size: 13pt;
+}
+.smallfont{
+  font-size: 13pt;
+  color: black;
+}
+.acontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.input{
+ width: 120px;
+ height: 50px; 
+ border: 1px solid lightgray;
+ border-radius: 25px;
+}
+.inputlayout{
+  padding-left:50rpx;
+  padding-right: 50rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+.parentinput{
+  display:flex;
+  flex-direction:row;
+}
+.abutton{
+  width:50%;
+  color:white;
+  border-radius: 15px;
+  background-color:brown;
+}

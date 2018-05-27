@@ -1,0 +1,33 @@
+<!--has1121.wxml-->
+<text class="font">20內加法凑十法第</text>
+<text style="color:#f07f0f">{{num}}</text>
+<text class="font">题:　　　倒计时</text>
+<text style="color:#0076ff">{{minute}}:{{second}}</text>
+<view  class="tcontainer">
+<image style="width: 100%; height:50%" mode="aspectFit" src="{{datasource[list[index]]}}">
+</image>
+<view class="acontainer">
+<text class="smallfont">请填写题目从左往右四个空</text>
+</view>
+<view class="parentinput">
+<view class="inputlayout">
+<input class="input" type='number' placeholder="  第一个空" bindinput='answer1'
+value="{{answer11}}"></input>
+</view>
+<view class="inputlayout">
+<input class="input" type='number' placeholder="  第二个空" bindinput='answer2'
+value="{{answer22}}"></input>
+</view>
+</view>
+<view class="parentinput">
+<view class="inputlayout">
+<input class="input" type='number' placeholder="  第三个空" bindinput='answer3'
+value="{{answer33}}"></input>
+</view>
+<view class="inputlayout">
+<input class="input" type='number' placeholder="  第四个空" bindinput='answer4'
+value="{{answer44}}"></input>
+</view>
+</view>
+<button class="abutton" bindtap='next'>确定</button>
+</view>
