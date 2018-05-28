@@ -1,2 +1,32 @@
 <!--pages/has1122/has1122.wxml-->
-<text>pages/has1122/has1122.wxml</text>
+<view class="ycontainer">
+  <view class="table">
+    <view class="tr" wx:for="{{list}}">
+      <view class="tr" wx:for="{{item}}">
+        <view id="{{item.idd}}" class='td'> {{item.v}} </view>
+      </view>
+    </view>
+  </view>
+  <view class="row">
+    <button class="settingbutton" style="background-color: rgb(138,43,226);" bindtap='getvalue'
+    id="1">1</button>
+    <button class="settingbutton" style="background-color: rgb(255,51,0);"   bindtap='getvalue'
+    id="2">2</button>
+    <button class="settingbutton" style="background-color: rgb(255,102,255);" bindtap='getvalue'
+    id="3">3</button>
+    <button class="settingbutton" style="background-color: rgb(102,0,153);" bindtap='getvalue'
+    id="4">4</button>
+    <button class="settingbutton" style="background-color: rgb(51,0,51);" bindtap='getvalue'
+    id="5">5</button>
+    </view>
+    <view class="row">
+    <button class="settingbutton" style="background-color: rgb(102,255,255);" bindtap='getvalue'
+    id="6">6</button>
+    <button class="settingbutton" style="background-color: rgb(102,51,51);" bindtap='getvalue'
+    id="7">7</button>
+    <button class="settingbutton" style="background-color: rgb(255,255,0);" bindtap='getvalue'
+    id="8">8</button>
+    <button class="settingbutton" style="background-color: rgb(255,204,153);" bindtap='getvalue'
+    id="9">9</button>
+  </view>
+</view>

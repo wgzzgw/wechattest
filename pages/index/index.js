@@ -41,7 +41,7 @@ Page({
             data.multiArray[1] = ['20以内'];
             break;
           case 4:
-            data.multiArray[1] = ['凑十法'];
+            data.multiArray[1] = ['凑十法','朋友对'];
             break;
         }
         data.multiIndex[1] = 0;
@@ -117,7 +117,12 @@ Page({
                           wx.navigateTo({
                             url: '../has1121/has1121',
                           })
-                        }
+                        } else if (this.data.multiArray[0][this.data.multiIndex[0]] == '专项训练' &&
+                          this.data.multiArray[1][this.data.multiIndex[1]] == '朋友对'){
+                          wx.navigateTo({
+                            url: '../has1122/has1122',
+                          })
+                          }
   },
   onLoad: function () {
     console.log('onLoad')

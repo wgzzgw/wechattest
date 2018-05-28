@@ -22,7 +22,8 @@
     "pages/has121/has121",
     "pages/has121result/has121result",
     "pages/has122/has122",
-    "pages/has122result/has122result"
+    "pages/has122result/has122result",
+    "pages/has1121result/has1121result"
   ],
   "window": {
     "backgroundTextStyle": "light",

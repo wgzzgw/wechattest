@@ -6,62 +6,35 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    list: [],
+    minute: 0,
+    second: 0
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-  
+  onLoad: function () {
+    this.setData({
+      list: app.globalData.HAS1122t
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
+  //随机排序
+  randSort: function () {
+    return Math.random() > 0.5 ? 1 : -1;
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
+  setList: function () {
+    for(var i=0;i<9;i++){
+      this.data.list[i]= this.data.list[i].sort(this.randSort);
+    }
+    this.setData({
+      list:this.data.list
+    })
+  },
   onShow: function () {
-  
+    this.setList();
+    this.setColor();
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
+  getvalue:function(e){
+    if (e.target.id==1){
+    }
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
+  setColor:function(){
   }
 })
