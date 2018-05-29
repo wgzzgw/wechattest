@@ -11,119 +11,119 @@
 <text class="text" style="color:#0076ff">{{minute}}:{{second}}</text>
   <view class="otable">
     <view class="tr">
-      <view class='otd'  style="background-color:{{countlist[0]}};"> {{datasource[list[0]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[1]}};"> {{datasource[list[1]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[2]}};"> {{datasource[list[2]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[3]}};"> {{datasource[list[3]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[4]}};"> {{datasource[list[4]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[5]}};"> {{datasource[list[5]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[6]}};"> {{datasource[list[6]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[7]}};"> {{datasource[list[7]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[8]}};"> {{datasource[list[8]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[0]}};"> {{datasource[list[0][0]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[1]}};"> {{datasource[list[0][1]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[2]}};"> {{datasource[list[0][2]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[3]}};"> {{datasource[list[0][3]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[4]}};"> {{datasource[list[0][4]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[5]}};"> {{datasource[list[0][5]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[6]}};"> {{datasource[list[0][6]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[7]}};"> {{datasource[list[0][7]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[8]}};"> {{datasource[list[0][8]]}} </view>
     </view>
   </view>
   <view class="otable">
     <view class="tr">
-      <view class='otd'  style="background-color:{{countlist[9]}};"> {{datasource[list[9]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[10]}};"> {{datasource[list[10]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[11]}};"> {{datasource[list[11]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[12]}};"> {{datasource[list[12]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[13]}};"> {{datasource[list[13]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[14]}};"> {{datasource[list[14]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[15]}};"> {{datasource[list[15]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[16]}};"> {{datasource[list[16]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[17]}};"> {{datasource[list[17]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[9]}};">  {{datasource[list[1][0]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[10]}};"> {{datasource[list[1][1]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[11]}};"> {{datasource[list[1][2]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[12]}};"> {{datasource[list[1][3]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[13]}};"> {{datasource[list[1][4]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[14]}};"> {{datasource[list[1][5]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[15]}};"> {{datasource[list[1][6]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[16]}};"> {{datasource[list[1][7]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[17]}};"> {{datasource[list[1][8]]}} </view>
     </view>
   </view>
   <view class="otable">
     <view class="tr">
-      <view class='otd'  style="background-color:{{countlist[18]}};"> {{datasource[list[18]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[19]}};"> {{datasource[list[19]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[20]}};"> {{datasource[list[20]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[21]}};"> {{datasource[list[21]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[22]}};"> {{datasource[list[22]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[23]}};"> {{datasource[list[23]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[24]}};"> {{datasource[list[24]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[25]}};"> {{datasource[list[25]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[26]}};"> {{datasource[list[26]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[18]}};"> {{datasource[list[2][0]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[19]}};"> {{datasource[list[2][1]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[20]}};"> {{datasource[list[2][2]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[21]}};"> {{datasource[list[2][3]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[22]}};"> {{datasource[list[2][4]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[23]}};"> {{datasource[list[2][5]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[24]}};"> {{datasource[list[2][6]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[25]}};"> {{datasource[list[2][7]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[26]}};"> {{datasource[list[2][8]]}} </view>
     </view>
   </view>
   <view class="otable">
     <view class="tr">
-      <view class='otd'  style="background-color:{{countlist[27]}};"> {{datasource[list[27]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[28]}};"> {{datasource[list[28]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[29]}};"> {{datasource[list[29]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[30]}};"> {{datasource[list[30]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[31]}};"> {{datasource[list[31]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[32]}};"> {{datasource[list[32]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[33]}};"> {{datasource[list[33]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[34]}};"> {{datasource[list[34]]}} </view>
-      <view class='otd'  style="background-color:{{countlist[35]}};"> {{datasource[list[35]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[27]}};"> {{datasource[list[3][0]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[28]}};"> {{datasource[list[3][1]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[29]}};"> {{datasource[list[3][2]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[30]}};"> {{datasource[list[3][3]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[31]}};"> {{datasource[list[3][4]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[32]}};"> {{datasource[list[3][5]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[33]}};"> {{datasource[list[3][6]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[34]}};"> {{datasource[list[3][7]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[35]}};"> {{datasource[list[3][8]]}} </view>
     </view>
   </view>
   <view class="otable">
     <view class="tr">
-      <view  class='otd'  style="background-color:{{countlist[36]}};"> {{datasource[list[36]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[37]}};"> {{datasource[list[37]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[38]}};"> {{datasource[list[38]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[39]}};"> {{datasource[list[39]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[40]}};"> {{datasource[list[40]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[41]}};"> {{datasource[list[41]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[42]}};"> {{datasource[list[42]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[43]}};"> {{datasource[list[43]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[44]}};"> {{datasource[list[44]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[36]}};"> {{datasource[list[4][0]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[37]}};"> {{datasource[list[4][1]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[38]}};"> {{datasource[list[4][2]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[39]}};"> {{datasource[list[4][3]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[40]}};"> {{datasource[list[4][4]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[41]}};"> {{datasource[list[4][5]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[42]}};"> {{datasource[list[4][6]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[43]}};"> {{datasource[list[4][7]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[44]}};"> {{datasource[list[4][8]]}} </view>
     </view>
   </view>
   <view class="otable">
     <view class="tr">
-      <view  class='otd'  style="background-color:{{countlist[45]}};"> {{datasource[list[45]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[46]}};"> {{datasource[list[46]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[47]}};"> {{datasource[list[47]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[48]}};"> {{datasource[list[48]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[49]}};"> {{datasource[list[49]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[50]}};"> {{datasource[list[50]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[51]}};"> {{datasource[list[51]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[52]}};"> {{datasource[list[52]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[53]}};"> {{datasource[list[53]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[45]}};"> {{datasource[list[5][0]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[46]}};"> {{datasource[list[5][1]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[47]}};"> {{datasource[list[5][2]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[48]}};"> {{datasource[list[5][3]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[49]}};"> {{datasource[list[5][4]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[50]}};"> {{datasource[list[5][5]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[51]}};"> {{datasource[list[5][6]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[52]}};"> {{datasource[list[5][7]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[53]}};"> {{datasource[list[5][8]]}} </view>
     </view>
   </view>
   <view class="otable">
     <view class="tr">
-      <view  class='otd'  style="background-color:{{countlist[54]}};"> {{datasource[list[54]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[55]}};"> {{datasource[list[55]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[56]}};"> {{datasource[list[56]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[57]}};"> {{datasource[list[57]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[58]}};"> {{datasource[list[58]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[59]}};"> {{datasource[list[59]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[60]}};"> {{datasource[list[60]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[61]}};"> {{datasource[list[61]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[62]}};"> {{datasource[list[62]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[54]}};"> {{datasource[list[6][0]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[55]}};"> {{datasource[list[6][1]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[56]}};"> {{datasource[list[6][2]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[57]}};"> {{datasource[list[6][3]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[58]}};"> {{datasource[list[6][4]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[59]}};"> {{datasource[list[6][5]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[60]}};"> {{datasource[list[6][6]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[61]}};"> {{datasource[list[6][7]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[62]}};"> {{datasource[list[6][8]]}} </view>
     </view>
   </view>
   <view class="otable">
     <view class="tr">
-      <view  class='otd'  style="background-color:{{countlist[63]}};"> {{datasource[list[63]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[64]}};"> {{datasource[list[64]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[65]}};"> {{datasource[list[65]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[66]}};"> {{datasource[list[66]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[67]}};"> {{datasource[list[67]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[68]}};"> {{datasource[list[68]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[69]}};"> {{datasource[list[69]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[70]}};"> {{datasource[list[70]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[71]}};"> {{datasource[list[71]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[63]}};"> {{datasource[list[7][0]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[64]}};"> {{datasource[list[7][1]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[65]}};"> {{datasource[list[7][2]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[66]}};"> {{datasource[list[7][3]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[67]}};"> {{datasource[list[7][4]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[68]}};"> {{datasource[list[7][5]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[69]}};"> {{datasource[list[7][6]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[70]}};"> {{datasource[list[7][7]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[71]}};"> {{datasource[list[7][8]]}} </view>
     </view>
   </view>
 <view class="otable">
     <view class="tr">
-      <view  class='otd'  style="background-color:{{countlist[72]}};"> {{datasource[list[72]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[73]}};"> {{datasource[list[73]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[74]}};"> {{datasource[list[74]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[75]}};"> {{datasource[list[75]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[76]}};"> {{datasource[list[76]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[77]}};"> {{datasource[list[77]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[78]}};"> {{datasource[list[78]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[79]}};"> {{datasource[list[79]]}} </view>
-      <view  class='otd'  style="background-color:{{countlist[80]}};"> {{datasource[list[80]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[72]}};"> {{datasource[list[8][0]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[73]}};"> {{datasource[list[8][1]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[74]}};"> {{datasource[list[8][2]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[75]}};"> {{datasource[list[8][3]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[76]}};"> {{datasource[list[8][4]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[77]}};"> {{datasource[list[8][5]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[78]}};"> {{datasource[list[8][6]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[79]}};"> {{datasource[list[8][7]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[80]}};"> {{datasource[list[8][8]]}} </view>
     </view>
   </view>
   <!--<view class="row">
