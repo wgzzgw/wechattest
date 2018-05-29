@@ -1,32 +1,168 @@
 <!--pages/has1122/has1122.wxml-->
 <view class="ycontainer">
-  <view class="table">
+  <!--<view class="table">
     <view class="tr" wx:for="{{list}}">
       <view class="tr" wx:for="{{item}}">
         <view id="{{item.idd}}" class='td'> {{item.v}} </view>
       </view>
     </view>
+  </view>-->
+<text class="text">总耗时</text>
+<text class="text" style="color:#0076ff">{{minute}}:{{second}}</text>
+  <view class="otable">
+    <view class="tr">
+      <view class='otd'  style="background-color:{{countlist[0]}};"> {{datasource[list[0]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[1]}};"> {{datasource[list[1]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[2]}};"> {{datasource[list[2]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[3]}};"> {{datasource[list[3]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[4]}};"> {{datasource[list[4]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[5]}};"> {{datasource[list[5]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[6]}};"> {{datasource[list[6]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[7]}};"> {{datasource[list[7]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[8]}};"> {{datasource[list[8]]}} </view>
+    </view>
+  </view>
+  <view class="otable">
+    <view class="tr">
+      <view class='otd'  style="background-color:{{countlist[9]}};"> {{datasource[list[9]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[10]}};"> {{datasource[list[10]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[11]}};"> {{datasource[list[11]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[12]}};"> {{datasource[list[12]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[13]}};"> {{datasource[list[13]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[14]}};"> {{datasource[list[14]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[15]}};"> {{datasource[list[15]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[16]}};"> {{datasource[list[16]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[17]}};"> {{datasource[list[17]]}} </view>
+    </view>
+  </view>
+  <view class="otable">
+    <view class="tr">
+      <view class='otd'  style="background-color:{{countlist[18]}};"> {{datasource[list[18]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[19]}};"> {{datasource[list[19]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[20]}};"> {{datasource[list[20]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[21]}};"> {{datasource[list[21]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[22]}};"> {{datasource[list[22]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[23]}};"> {{datasource[list[23]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[24]}};"> {{datasource[list[24]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[25]}};"> {{datasource[list[25]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[26]}};"> {{datasource[list[26]]}} </view>
+    </view>
+  </view>
+  <view class="otable">
+    <view class="tr">
+      <view class='otd'  style="background-color:{{countlist[27]}};"> {{datasource[list[27]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[28]}};"> {{datasource[list[28]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[29]}};"> {{datasource[list[29]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[30]}};"> {{datasource[list[30]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[31]}};"> {{datasource[list[31]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[32]}};"> {{datasource[list[32]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[33]}};"> {{datasource[list[33]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[34]}};"> {{datasource[list[34]]}} </view>
+      <view class='otd'  style="background-color:{{countlist[35]}};"> {{datasource[list[35]]}} </view>
+    </view>
+  </view>
+  <view class="otable">
+    <view class="tr">
+      <view  class='otd'  style="background-color:{{countlist[36]}};"> {{datasource[list[36]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[37]}};"> {{datasource[list[37]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[38]}};"> {{datasource[list[38]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[39]}};"> {{datasource[list[39]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[40]}};"> {{datasource[list[40]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[41]}};"> {{datasource[list[41]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[42]}};"> {{datasource[list[42]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[43]}};"> {{datasource[list[43]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[44]}};"> {{datasource[list[44]]}} </view>
+    </view>
+  </view>
+  <view class="otable">
+    <view class="tr">
+      <view  class='otd'  style="background-color:{{countlist[45]}};"> {{datasource[list[45]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[46]}};"> {{datasource[list[46]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[47]}};"> {{datasource[list[47]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[48]}};"> {{datasource[list[48]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[49]}};"> {{datasource[list[49]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[50]}};"> {{datasource[list[50]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[51]}};"> {{datasource[list[51]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[52]}};"> {{datasource[list[52]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[53]}};"> {{datasource[list[53]]}} </view>
+    </view>
+  </view>
+  <view class="otable">
+    <view class="tr">
+      <view  class='otd'  style="background-color:{{countlist[54]}};"> {{datasource[list[54]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[55]}};"> {{datasource[list[55]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[56]}};"> {{datasource[list[56]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[57]}};"> {{datasource[list[57]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[58]}};"> {{datasource[list[58]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[59]}};"> {{datasource[list[59]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[60]}};"> {{datasource[list[60]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[61]}};"> {{datasource[list[61]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[62]}};"> {{datasource[list[62]]}} </view>
+    </view>
+  </view>
+  <view class="otable">
+    <view class="tr">
+      <view  class='otd'  style="background-color:{{countlist[63]}};"> {{datasource[list[63]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[64]}};"> {{datasource[list[64]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[65]}};"> {{datasource[list[65]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[66]}};"> {{datasource[list[66]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[67]}};"> {{datasource[list[67]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[68]}};"> {{datasource[list[68]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[69]}};"> {{datasource[list[69]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[70]}};"> {{datasource[list[70]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[71]}};"> {{datasource[list[71]]}} </view>
+    </view>
+  </view>
+<view class="otable">
+    <view class="tr">
+      <view  class='otd'  style="background-color:{{countlist[72]}};"> {{datasource[list[72]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[73]}};"> {{datasource[list[73]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[74]}};"> {{datasource[list[74]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[75]}};"> {{datasource[list[75]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[76]}};"> {{datasource[list[76]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[77]}};"> {{datasource[list[77]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[78]}};"> {{datasource[list[78]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[79]}};"> {{datasource[list[79]]}} </view>
+      <view  class='otd'  style="background-color:{{countlist[80]}};"> {{datasource[list[80]]}} </view>
+    </view>
+  </view>
+  <!--<view class="row">
+    <button class="settingbutton" style="background-color: rgb(138,43,226);" bindtap='getvalue' id="1">1</button>
+    <button class="settingbutton" style="background-color: rgb(255,51,0);" bindtap='getvalue' id="2">2</button>
+    <button class="settingbutton" style="background-color: rgb(255,102,255);" bindtap='getvalue' id="3">3</button>
+    <button class="settingbutton" style="background-color: rgb(102,0,153);" bindtap='getvalue' id="4">4</button>
+    <button class="settingbutton" style="background-color: rgb(51,0,51);" bindtap='getvalue' id="5">5</button>
   </view>
   <view class="row">
-    <button class="settingbutton" style="background-color: rgb(138,43,226);" bindtap='getvalue'
-    id="1">1</button>
-    <button class="settingbutton" style="background-color: rgb(255,51,0);"   bindtap='getvalue'
-    id="2">2</button>
-    <button class="settingbutton" style="background-color: rgb(255,102,255);" bindtap='getvalue'
-    id="3">3</button>
-    <button class="settingbutton" style="background-color: rgb(102,0,153);" bindtap='getvalue'
-    id="4">4</button>
-    <button class="settingbutton" style="background-color: rgb(51,0,51);" bindtap='getvalue'
-    id="5">5</button>
+    <button class="settingbutton" style="background-color: rgb(102,255,255);" bindtap='getvalue' id="6">6</button>
+    <button class="settingbutton" style="background-color: rgb(102,51,51);" bindtap='getvalue' id="7">7</button>
+    <button class="settingbutton" style="background-color: rgb(255,255,0);" bindtap='getvalue' id="8">8</button>
+    <button class="settingbutton" style="background-color: rgb(255,204,153);" bindtap='getvalue' id="9">9</button>
+  </view>-->
+  <!--<view class="rowparent">
+    <view wx:for="{{3}}">
+      <view class="row">
+        <button class="osettingbutton" style="background-color: rgb(102,51,51);" bindtap="getvalue" id="{{1+index*3}}">{{1+index*3}}</button>
+        <button class="osettingbutton" style="background-color: rgb(255,51,0);" bindtap="getvalue" id="{{2+index*3}}">{{2+index*3}}</button>
+        <button class="osettingbutton" style="background-color: rgb(102,0,153);" bindtap="getvalue" id="{{3+index*3}}">{{3+index*3}}</button>
+      </view>
     </view>
-    <view class="row">
-    <button class="settingbutton" style="background-color: rgb(102,255,255);" bindtap='getvalue'
-    id="6">6</button>
-    <button class="settingbutton" style="background-color: rgb(102,51,51);" bindtap='getvalue'
-    id="7">7</button>
-    <button class="settingbutton" style="background-color: rgb(255,255,0);" bindtap='getvalue'
-    id="8">8</button>
-    <button class="settingbutton" style="background-color: rgb(255,204,153);" bindtap='getvalue'
-    id="9">9</button>
+  </view>-->
+  <view class="pa">
+  <view class="row">
+    <button class="settingbutton" style="background-color: rgb(138,43,226);" bindtap='getvalue' id="1">1</button>
+    <button class="settingbutton" style="background-color: rgb(255,51,0);" bindtap='getvalue' id="2">2</button>
+    <button class="settingbutton" style="background-color: rgb(255,102,255);" bindtap='getvalue' id="3">3</button>
+  </view>
+   <view class="row">
+    <button class="settingbutton" style="background-color: rgb(102,0,153);" bindtap='getvalue' id="4">4</button>
+    <button class="settingbutton" style="background-color: rgb(100,149,237);" bindtap='getvalue' id="5">5</button>
+    <button class="settingbutton" style="background-color: rgb(102,255,255);" bindtap='getvalue' id="6">6</button>
+    </view>
+  <view class="row">
+    <button class="settingbutton" style="background-color: rgb(102,51,51);" bindtap='getvalue' id="7">7</button>
+    <button class="settingbutton" style="background-color: rgb(255,255,0);" bindtap='getvalue' id="8">8</button>
+    <button class="settingbutton" style="background-color: rgb(255,204,153);" bindtap='getvalue' id="9">9</button>
+  </view>
   </view>
 </view>

@@ -1,16 +1,19 @@
 /* pages/has1122/has1122.wxss */
-.ycontainer{
+
+.ycontainer {
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 50rpx 20rpx;
+  padding: 20rpx 20rpx;
 }
+
 .table {
   border: 2px solid rebeccapurple;
   width: 98%;
 }
+
 .tr {
   width: 100%;
   display: flex;
@@ -24,27 +27,66 @@
   text-align: center;
   width: 100%;
 }
+
 .ttable {
   margin-top: 0.5rem;
   border: 1px solid rebeccapurple;
-  width:50%;
-  height:50%;
+  width: 50%;
+  height: 50%;
   border-radius: 15px;
 }
-.row{
+
+.row {
   display: flex;
   flex-direction: row;
 }
-.settingbutton{
-  width:3.5rem;
+
+.settingbutton {
+  width: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  height:2.8rem;
-  color:white;
+  height: 3.5rem;
+  color: white;
   border-radius: 13px;
   margin-top: 20rpx;
   margin-left: 7rpx;
   margin-right: 7rpx;
   font-size: 28px;
+}
+
+.otable {
+  border: 0.5px solid rebeccapurple;
+  width: 100%;
+}
+
+.otd {
+  font-weight: 400;
+  border: 2px solid #dadada;
+  text-align: center;
+  width: 100%;
+}
+
+.osettingbutton {
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.8rem;
+  color: white;
+  font-size: 28px;
+  border-radius: 0px;
+}
+
+.rowparent {
+  margin-top:80rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pa{
+  margin-top:40rpx;
+}
+.text{
+  padding-top:5rpx;
 }
